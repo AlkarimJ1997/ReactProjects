@@ -1,0 +1,183 @@
+/* Styling for the footer container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--bg-nav);
+    padding: 4rem 0 2rem 0;
+}
+
+/* Styling for the footer subscription container */
+.footer-subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: var(--clr-white);
+}
+
+/* Subscription text */
+.footer-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+/* Footer email input */
+.footer-input {
+    padding: 8px 24px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid var(--clr-white);
+}
+
+.footer-input::placeholder {
+    color: var(--clr-light-grey);
+}
+
+/* Styling for the footer columns container */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+/* Footer columns */
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+/* Footer column headings */
+.footer-link-items h2 {
+    margin-bottom: 16px;
+}
+
+.footer-link-items > h2 {
+    color: var(--clr-white);
+}
+
+/* Footer column items */
+.footer-link-items a {
+    color: var(--clr-white);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-link-items a:hover {
+    color: var(--clr-green);
+    transition: 0.3s ease-out;
+}
+
+/* Footer email form */
+.footer-email-form h2 {
+    margin-bottom: 2rem;
+}
+
+/* Social Media Icons */
+.social-icon-link {
+    color: var(--clr-white);
+    font-size: 24px;
+}
+
+.social-icon-link:hover {
+    color: var(--clr-green);
+    transition: 0.3s ease-out;
+}
+
+/* Styling for the Social Media Icons container (including the footer logo and copyright message)  */
+.social-media {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.social-media-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+/* Styling for the Social Media Icons container (only the icons) */
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+/* Footer logo (REACT and icon) */
+.social-logo {
+    display: flex;
+    align-items: center;
+    color: var(--clr-white);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.social-logo:hover {
+    color: var(--clr-green);
+    transition: 0.3s ease-out;
+}
+
+/* Footer copyright message */
+.website-rights {
+    color: var(--clr-white);
+    margin-bottom: 16px;
+}
+
+/* Media queries */
+@media screen and (max-width: 820px) {
+    .footer-links {
+        padding-top: 2rem;
+    }
+
+    .footer-input,
+    .btn {
+        width: 100%;
+    }
+
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+
+    .social-media-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-link-wrapper:nth-of-type(2) > div:first-child {
+        margin-bottom: 2.8rem;
+    }
+}

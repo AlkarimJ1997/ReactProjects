@@ -1,0 +1,19 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+/* Global CSS variables */
+:root {
+    --bg-button: #141414;
+
+    --clr-blue: #014b7f;
+    --clr-black: #000;
+    --clr-white: #fff;
+}
+
+/* Reset box sizing, margin and padding */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}

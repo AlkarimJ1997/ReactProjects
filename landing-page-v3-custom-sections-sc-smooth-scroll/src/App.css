@@ -1,0 +1,29 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+/* Global CSS variables */
+:root {
+    --bg-sidebar: #0d0d0d;
+    --bg-footer: #101522;
+    --bg-hero: #0c0c0c;
+    --bg-video: #232a34;
+    --bg-form: #010101;
+    --bg-dark-gradient: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    --bg-form-gradient: 
+        linear-gradient(180deg, rgba(1, 147, 86, 1) 0%, rgba(10, 201, 122, 1) 100%);
+
+    --clr-light-text: #f7f8fa;
+    --clr-white: #fff;
+    --clr-black: #010606;
+    --clr-off-white: #f9f9f9;
+    --clr-green: #01bf71;
+}
+
+/* Remove default margin/padding, reset box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}

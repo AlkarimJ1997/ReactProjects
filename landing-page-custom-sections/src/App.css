@@ -1,0 +1,27 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+/* Global CSS variables */
+:root {
+    --bg-nav: #1c2237;
+    --bg-pricing: #fafafa;
+    --bg-pricing-card-gradient: linear-gradient(45deg, #0660e9 0%, #276afb 100%);
+    
+    --hero-dark: #1c2237;
+    
+    --clr-red: #f00946;
+    --clr-blue: #276afb;
+    --clr-green: #25ce4a;
+    --clr-off-white: #f7f8fa;
+    --clr-light-grey: #b1b1b1;
+    --clr-white: #fff;
+    --clr-black: #242424;
+}
+
+/* Remove default margin/padding and reset box sizing model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}

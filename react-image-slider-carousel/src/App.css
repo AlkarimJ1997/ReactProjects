@@ -1,0 +1,11 @@
+/* Global CSS variables */
+:root {
+    --clr-black: #000;
+}
+
+/* Reset box-sizing and default margin/padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

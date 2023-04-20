@@ -1,0 +1,45 @@
+/* Styling for all buttons */
+.btn {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+/* Styling for primary buttons */
+.btn--primary {
+    background: var(--clr-white);
+    color: var(--clr-black);
+    border: 1px solid var(--clr-white);
+}
+
+/* Styling for outline buttons */
+.btn--outline {
+    background: transparent;
+    color: var(--clr-white);
+    padding: 8px 20px;
+    border: 1px solid var(--clr-white);
+    transition: all 0.3s ease-out;
+}
+
+/* Styling for medium buttons */
+.btn--medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+/* Styling for large buttons */
+.btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+/* Hover effects for buttons */
+.btn--medium:hover,
+.btn--large:hover {
+    background: var(--clr-white);
+    color: var(--clr-black);
+    transition: all 0.3s ease-out;
+}

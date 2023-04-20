@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quae voluptatibus similique, mollitia voluptates laboriosam impedit non hic! Velit recusandae modi, vel mollitia voluptatum incidunt earum iste iusto! Quibusdam enim sint nostrum, eligendi dignissimos velit reiciendis provident architecto ea rerum rem perferendis optio quisquam exercitationem amet, voluptas nisi ex sit!"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quae voluptatibus similique, mollitia voluptates laboriosam impedit non hic! Velit recusandae modi, vel mollitia voluptatum incidunt earum iste iusto! Quibusdam enim sint nostrum, eligendi dignissimos velit reiciendis provident architecto ea rerum rem perferendis optio quisquam exercitationem amet, voluptas nisi ex sit!"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "datetime": "July 01, 2021 11:17:36 AM",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quae voluptatibus similique, mollitia voluptates laboriosam impedit non hic! Velit recusandae modi, vel mollitia voluptatum incidunt earum iste iusto! Quibusdam enim sint nostrum, eligendi dignissimos velit reiciendis provident architecto ea rerum rem perferendis optio quisquam exercitationem amet, voluptas nisi ex sit!"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "datetime": "July 07, 2022 11:08:46 PM",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quae voluptatibus similique, mollitia voluptates laboriosam impedit non hic! Velit recusandae modi, vel mollitia voluptatum incidunt earum iste iusto! Quibusdam enim sint nostrum, eligendi dignissimos velit reiciendis provident architecto ea rerum rem perferendis optio quisquam exercitationem amet, voluptas nisi ex sit!"
+    }
+  ]
+}

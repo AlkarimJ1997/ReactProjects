@@ -1,0 +1,166 @@
+/* Styling for the footer container */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--clr-black);
+    padding: 4rem 0 2rem 0;
+}
+
+/* Styling for the footer subscription section */
+.footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 24px;
+    color: var(--clr-white);
+}
+
+.footer-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+/* Styling for the email input field */
+.footer-input {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid var(--clr-white);
+}
+
+/* Styling for the footer columns container */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+/* Styling for the footer columns */
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 160px;
+    box-sizing: border-box;
+}
+
+/* Styling for the column headings (About Us, Contact Us, etc.) */
+.footer-link-items > h2 {
+    margin-bottom: 16px;
+    color: var(--clr-white);
+}
+
+/* Styling for the footer column items (How it works, Testimonials, etc.) */
+.footer-link-items a {
+    color: var(--clr-white);
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+/* Hover effect for the footer column items (How it works, Testimonials, etc.) */
+.footer-link-items a:hover {
+    color: var(--clr-blue);
+    transition: 0.3s ease-out;
+}
+
+/* Styling for the footer email form */
+.footer-email-form h2 {
+    margin-bottom: 32px;
+}
+
+.footer-input::placeholder {
+    color: var(--clr-light-grey);
+}
+
+/* Styling for social media icons/links */
+.social-icon-link {
+    color: var(--clr-white);
+    font-size: 24px;
+}
+
+.social-icon-link:hover {
+    color: var(--clr-blue);
+    transition: 0.3s ease-out;
+}
+
+.social-media {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+}
+
+/* Styling for the footer logo (REACT and icon) */
+.social-logo {
+    display: flex;
+    align-self: center;
+    color: var(--clr-white);
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+/* Styling for the copyright */
+.website-rights {
+    color: var(--clr-white);
+    margin-bottom: 16px;
+}
+
+/* Media queries */
+@media screen and (max-width: 820px) {
+    .footer-links {
+        padding-top: 2rem;
+    }
+
+    .footer-input,
+    .btn {
+        width: 100%;
+    }
+
+    .footer-link-wrapper,
+    .social-media-wrap {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,206 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+/* Reset box sizing model and default margin/padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* CSS styling for the header */
+.Header {
+    background: #232323;
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header svg {
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+
+.Nav {
+    background: #232323;
+    color: #fff;
+}
+
+/* CSS styling for the search form */
+.searchForm input[type="text"] {
+    display: block;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 0 1.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.searchForm>label {
+    position: absolute;
+    left: -99999px;
+}
+
+/* CSS styling for the nav links */
+.Nav ul {
+    display: flex;
+    list-style: none;
+    padding: 2rem 2rem 2rem 0;
+    flex-grow: flex-start;
+    text-align: left;
+}
+
+.Nav ul li {
+    margin: 0 1.5rem;
+}
+
+.Nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Nav a:hover {
+    color: #F9423D;
+    transition: all 0.2s ease-out;
+}
+
+/* CSS styling for the posts (articles) */
+.statusMsg {
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.post {
+    width: 100%;
+    padding: 2rem;
+    border-bottom: 1px solid #232323;
+}
+
+.post a {
+    color: #232323;
+    text-decoration: none;
+}
+
+.editButton {
+    background: #6F78D0;
+    padding: 0.85em;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.deleteButton {
+    background: #F9423D;
+    padding: 0.7rem;
+    margin-top: 0.8rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.postDate {
+    margin-top: 0.25rem;
+}
+
+.postBody {
+    margin-top: 1rem;
+}
+
+/* CSS styling for the posts (details page) */
+.noPost {
+    margin-top: 1rem;
+}
+
+.homeLink {
+    margin-top: 1.5rem;
+}
+
+.homeLink span {
+    color: limegreen;
+}
+
+/* CSS styling for the 404 page */
+.Missing {
+    width: 100%;
+    padding: 2rem;
+    border-bottom: 1px solid #232323;
+}
+
+.Missing a {
+    color: #232323;
+    text-decoration: none;
+}
+
+/* CSS styling for the add new post form */
+.NewPost {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+}
+
+.NewPost h2 {
+    margin-bottom: 1rem;
+}
+
+.newPostForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.newPostForm input[type="text"] {
+    max-width: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.newPostForm textarea {
+    max-width: 50%;
+    height: 10rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.NewPost button {
+    background: lightgreen;
+    padding: 0.7rem;
+    color: #232323;
+    outline: none;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.NewPost button:hover {
+    background: lime;
+    transition: all 0.2s ease-out;
+}
+
+/* CSS styling for the about us page */
+.About {
+    padding: 2rem;
+}
+
+/* CSS styling for the footer */
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #232323;
+    color: #fff;
+    padding: 1.5rem;
+}

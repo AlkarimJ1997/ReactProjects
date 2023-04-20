@@ -1,0 +1,62 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Global CSS variables */
+:root {
+    --clr-white: #fff;
+}
+
+/* Reset box-sizing and default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 5rem;
+    display: grid;
+    place-content: center;
+    background-color: #232323;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section p {
+    color: var(--clr-white);
+    user-select: none;
+}
+
+svg {
+    color: var(--clr-white);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+svg:hover {
+    color: #01b467;
+}
+
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin: 1rem;
+}
+
+input {
+    padding: 0.8rem;
+    margin: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}

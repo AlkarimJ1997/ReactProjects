@@ -1,0 +1,56 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+
+/* Global CSS variables */
+:root {
+    --bg-nav-gradient: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    --bg-nav-mobile-menu: #242222;
+
+    --clr-card-text: #252e48;
+    --clr-light-grey: #b1b1b1;
+    --clr-blue: #1f98f4;
+    --clr-black: #242424;
+    --clr-white: #fff;
+}
+
+/* Remove all default margin/padding and reset box sizing model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--clr-white);
+    font-size: 100px;
+}
+
+.services {
+    background-image: url(./images/img-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.products {
+    background-image: url(./images/img-1.jpg);
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.sign-up {
+    background-image: url(./images/img-8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

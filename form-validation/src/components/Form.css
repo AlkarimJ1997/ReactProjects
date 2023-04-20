@@ -1,0 +1,159 @@
+/* Styling for form container */
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Left column of form */
+.form-content-left {
+    background: var(--bg-form-gradient-blue);
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+/* Right column of form */
+.form-content-right {
+    background: var(--bg-form-gradient-black);
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+/* Spaceship image (left column) */
+.form-img {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Form success image (right column) */
+.form-img-2 {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Form success message */
+.form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: var(--clr-white);
+}
+
+/* Close icon (X) */
+.close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 2rem;
+    z-index: 1;
+    color: var(--clr-white);
+    cursor: pointer;
+}
+
+/* Styling for form container (right side, actual form with inputs) */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Form welcome message */
+.form h1 {
+    font-size: 1rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1rem;
+    color: var(--clr-white);
+}
+
+/* Form inputs container */
+.form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+}
+
+/* Error messages */
+.form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: var(--clr-red);
+}
+
+/* Form input labels (Username, Email, etc.) */
+.form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-bottom: 6px;
+    color: var(--clr-white);
+}
+
+/* Form inputs */
+.form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    height: 40px;
+    width: 100%;
+}
+
+/* Placeholders */
+.form-input::placeholder {
+    color: var(--clr-grey);
+    font-size: 12px;
+}
+
+/* Form signup button */
+.form-input-btn {
+    background: var(--bg-form-gradient-blue);
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    color: var(--clr-white);
+    font-size: 1rem;
+}
+
+.form-input-btn:hover {
+    cursor: pointer;
+    background: var(--bg-btn-gradient-hover);
+    transition: all 0.4s ease-out;
+}
+
+/* Already have an account? Login here */
+.form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: var(--clr-white);
+    width: 80%;
+    text-align: center;
+}
+
+.form-input-login a {
+    text-decoration: none;
+    color: var(--clr-blue);
+    font-weight: 600;
+}
